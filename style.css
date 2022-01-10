@@ -323,31 +323,43 @@ body{
 }
 
 .rowMyanmarMobile h7{
-  font-size: 15px;
-  margin-left: 100px;
+  font-size: 20px;
+  /* margin-left: 100px; */
+}
+
+.rowMyanmarMobile .row-col{
+  text-align: center;
 }
 
 
 .natureMyanmarMobile{
   font-size: 30px;
-  margin: 10px 0px 10px 25px;
+  margin: 10px 0 10px 30px;
 }
 
 /* --------------------------------end for photo list-------------------- */
 
-.appMobile .titleMobile p{
+.appMobile .titleMobile h1{
   font-size: 40px;
-  margin: 20px 0 20px 0;
+  margin: 10px 0 10px 30px;
 }
 
+ .headerMobile{
+  background-image: url('images/map_jp.png');
+  height: 500px;
+  background-size: 80% 100%;
+  background-repeat: no-repeat;
+  /* background-color: red; */
+  margin-left: 40px;
+}
 
-.appMobile .headerMobile img{
+/* .appMobile .headerMobile img{
   height: 500px;
   width: 100%;
   text-align: center;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /* -----------------------end for app------------------------------------- */
 
@@ -355,15 +367,15 @@ body{
   .paragraphMyanmarMobile{
     justify-content: center;
     align-items: center;
-    margin-left: 374px;
+    margin-left: 450px;
+    border: 2px solid #000;
+    width: 444px;
+    height: 180px;
   }
   
   .paragraphMyanmarMobile p{ 
-    border: 2px solid #000;
-    width: 540px;
-    height: 137px;
-    font-size: 25px;
-    padding-top: 10px;
+    font-size: 20px;
+    /* padding-top: 10px; */
     padding-left: 20px;
   }
   /* --------------------------------------------for myanmar pags---------- */
@@ -498,12 +510,12 @@ body{
 }
 
 
-.app .header img{
-  height: 300px;
-  width: 360px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
+.app .header {
+  background-image: url(images/map_jp.png);
+    height: 198px;
+    background-size: 65% 89%;
+    background-repeat: no-repeat;
+    margin-left: 15px;
 }
 
 /* -----------------------end for app------------------------------------- */
@@ -512,19 +524,20 @@ body{
 
 .paragraphMyanmar{
   justify-content: center;
-  align-items: center;
-  /* margin: 0 0 0 60px; */
-  margin: 100px;
-  border: 1px solid #000;
-  width: 221px;
-  height: 73px;
+    align-items: center;
+    /* margin: 0 0 0 60px; */
+    /* margin: 23px; */
+    margin-left: 42px;
+    border: 1px solid #000;
+    width: 180px;
+    height: 73px;
 }
 
 .paragraphMyanmar p{ 
   font-size: 8px;
-  padding-bottom: -17px;
-  padding: 20px;
-  margin: 0;
+    padding-bottom: -17px;
+    padding: 5px;
+    margin: 0;
 }
 /* ------------------------------------End Paragraph Class---------------------- */
 
@@ -540,21 +553,27 @@ body{
 .colMyanmar img{
   width: 99px;
   height: 80px;
-  margin: 1px;
+  /* margin: 1px; */
+  margin-top: 10px;
+}
+
+.rowMyanmar .row-col{
+  text-align: center;
 }
 
 .rowMyanmar h7{
-  font-size: 12px;
-    margin-left: 14px;
+  font-size: 10px;
+    /* margin-left: 14px; */
 }
 
 
 .natureMyanmar{
-  font-size: 18px;
+  font-size: 14px;
   /* margin: 10px 0px 10px 28px; */
   /* margin: 0 0 10px 46px; */
   /* margin: 19px 0 10px 46px; */
-  margin: 20px;
+  /* margin: 20px; */
+  margin: 5px 0px 5px 20px;
 }
 
 /* --------------------------------end for photo list-------------------- */
