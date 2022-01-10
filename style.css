@@ -510,7 +510,7 @@ body{
 
 .app .title{
   /* margin-left: 20px; */
-  margin-left: 20px;
+  margin-left: 30px;
   /* background-color: red; */
 }
 
@@ -542,7 +542,7 @@ body{
 .paragraphMyanmar{
   justify-content: center;
     align-items: center;
-    margin-left: 70px;
+    margin-left: 117px;
     border: 1px solid #000;
     width: 180px;
     height: 73px;
@@ -575,6 +575,7 @@ body{
 
 .rowMyanmar .row-col{
   text-align: center;
+  margin: 5px;
 }
 
 .rowMyanmar h7{
@@ -589,7 +590,7 @@ body{
   /* margin: 0 0 10px 46px; */
   /* margin: 19px 0 10px 46px; */
   /* margin: 20px; */
-  margin: 5px 0px 5px 20px;
+  margin: 5px 0px 5px 45px;
 }
 
 /* --------------------------------end for photo list-------------------- */
