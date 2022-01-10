@@ -8,7 +8,7 @@ body{
 .head{
   /* background-image: url('images/ok.jpeg');  */
   background-color: cornsilk;
-  height: 500px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   /* background-color: red; */
@@ -526,14 +526,15 @@ body{
 .rowMyanmar{
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 70%;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .colMyanmar img{
   width: 99px;
-    height: 80px;
+  height: 80px;
+  margin: 1px;
 }
 
 .rowMyanmar h7{
