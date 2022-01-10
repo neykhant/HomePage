@@ -542,7 +542,8 @@ body{
 .paragraphMyanmar{
   justify-content: center;
     align-items: center;
-    margin-left: 117px;
+    /* margin-left: 117px; */
+    margin: 0px 115px 0 115px;
     border: 1px solid #000;
     width: 180px;
     height: 73px;
