@@ -3,6 +3,10 @@ body{
   margin: 0;
 }
 
+.container{
+  /* background-color: blue; */
+}
+
 /* --------------------for head----------------------------- */
 
 .head{
@@ -504,6 +508,12 @@ body{
 
 /* ----------------------------------------------------app-------------------- */
 
+.app .title{
+  /* margin-left: 20px; */
+  margin-left: 20px;
+  /* background-color: red; */
+}
+
 .app .title p{
   font-size: 20px;
   /* margin: 20px 0 20px 0; */
@@ -511,11 +521,18 @@ body{
 
 
 .app .header {
-  background-image: url(images/map_jp.png);
+  /* background-image: url(images/map_jp.png);
     height: 198px;
     background-size: 65% 89%;
     background-repeat: no-repeat;
-    margin-left: 15px;
+    margin-left: 15px; */
+
+    background-image: url(images/map_jp.png);
+    height: 198px;
+    background-size: 100% 89%;
+    background-repeat: no-repeat;
+    /* margin-left: 15px; */
+    margin: 25px;
 }
 
 /* -----------------------end for app------------------------------------- */
@@ -525,9 +542,7 @@ body{
 .paragraphMyanmar{
   justify-content: center;
     align-items: center;
-    /* margin: 0 0 0 60px; */
-    /* margin: 23px; */
-    margin-left: 42px;
+    margin-left: 70px;
     border: 1px solid #000;
     width: 180px;
     height: 73px;
@@ -545,14 +560,15 @@ body{
 .rowMyanmar{
   display: flex;
   flex-direction: row;
-  width: 70%;
+  width: 100%;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  /* background-color: red; */
 }
 
 .colMyanmar img{
-  width: 99px;
-  height: 80px;
+  width: 130px;
+  height: 90px;
   /* margin: 1px; */
   margin-top: 10px;
 }
