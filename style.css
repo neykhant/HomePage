@@ -250,7 +250,7 @@ body{
     height: 116px;
     text-align: center;
     border-radius: 10px;
-    background-color: papayawhip;
+    background-color: #94938f;
     margin-top: 156x;
     margin: 20px;
     border: none;
@@ -265,6 +265,7 @@ body{
   /* background-color: green; */
   /* height: 70px; */
   width: 100%;
+  margin: 30px;
 }
 
 .logoMobile p{
@@ -281,19 +282,20 @@ body{
 
 .logoTitleMobile .ppMobile{
   border: 2px solid #000;
-    height: 297px;
+    height: 200px;
     text-align: center;
     justify-content: center;
     padding: 200px 0px 0px 0px;
     font-size: 27px;
     font-weight: bold;
-    /* width: 100%;*/
+    /* width: 100%; */
+    margin: 70px;
 }
 
 .titleJapanMobile .t{
   /* background-color: teal; */
   font-size: 23px;
-  margin: 0;
+  margin: 30px;
 }
 
 .rowJapanMobile{
@@ -306,11 +308,12 @@ body{
 }
 
 .columnJapanMobile img{
-  width: 100%;
-  height: 560px;
-  margin-top: 10px;
-  /* margin: 0px;*/
-
+  /* width: 80%;  */
+    height: 550px;
+    /* margin-top: 10px; */
+    margin: 19px;
+    /* margin: 0px; */
+    width: 300px;
 }
 /* -----------------------------end for japan pages---------- */
 .rowMyanmarMobile{
@@ -371,7 +374,8 @@ body{
   .paragraphMyanmarMobile{
     justify-content: center;
     align-items: center;
-    margin-left: 450px;
+    /* margin-left: 450px; */
+    margin: 0 140px 0 140px;
     border: 2px solid #000;
     width: 444px;
     height: 180px;
@@ -602,7 +606,8 @@ body{
 .logo{
   /* background-color: red; */
   /* height: 70px; */
-  width: 100%;
+  width: 150px;
+  margin: 15px;
 }
 
 .logoTitle{
@@ -610,6 +615,10 @@ body{
   /* width: 100%; */
   /* height: 500px; */
   margin: 20px;
+  border: 2px solid #000;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
 }
 
 .logo p{
@@ -617,11 +626,8 @@ body{
 }
 
 .logoTitle .pp{
-  border: 2px solid #000;
-  height: 100px;
-  text-align: center;
-  justify-content: center;
-  padding: 100px 0px 0px 0px;
+  
+  padding: 25px 0px 0px 0px;
   font-size: 15px;
   font-weight: bold;
   /* width: 100%;*/
@@ -630,7 +636,7 @@ body{
 .titleJapan .t{
   /* background-color: teal; */
   font-size: 14px;
-  margin: 0;
+  margin: 15px;
 }
 
 .imagesList{
