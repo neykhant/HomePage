@@ -53,16 +53,22 @@ body{
 
 .row{
   display: flex;
-      flex-direction: row;
-      width: 100%;
-      justify-content: space-around;
-      flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
+.second .row .column{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
 .row .column img{
   height: 53px;
   /* margin: 72px; */
-  margin: 26px 0 0 45px;
+  /* margin: 26px 0 0 45px; */
 }
 
 
