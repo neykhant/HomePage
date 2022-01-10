@@ -542,16 +542,30 @@ body{
 /* -----------------------end for app------------------------------------- */
 
 /* --------------------------------------Paragraph Class---------------------- */
+.paragraphMMMobile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragraphMM{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
 
 .paragraphMyanmar{
   justify-content: center;
-    align-items: center;
-    /* margin-left: 117px; */
-    margin: 0px 115px 0 115px;
-    border: 1px solid #000;
-    width: 180px;
-    height: 73px;
-    margin-bottom: 15px;
+  align-items: center;
+  /* margin-left: 117px; */
+  /* margin: 0px 115px 0 115px; */
+  border: 1px solid #000;
+  width: 204px;
+  width: 180px;
+  height: 77px;
+  margin-bottom: 15px;
 }
 
 .paragraphMyanmar p{ 
