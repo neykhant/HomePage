@@ -654,20 +654,20 @@ body{
 }
 
 .imagesList{
-  height: 530px;
+  /* height: 530px; */
 }
 
 .rowJapan{
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  /* width: 100%; */
   flex-direction: row;
   justify-content: space-evenly;
   /* height: 600px; */
 }
 
 .columnJapan img{
-  width: 100%;
+  /* width: 100%; */
   height: 217px;
   margin-top: 30px;
 
