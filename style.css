@@ -327,8 +327,11 @@ body{
 }
 
 .colMyanmarMobile img{
-  width: 238px;
-  height: 179px;
+  /* width: 220px;
+  height: 160px; */
+  width: 300px;
+  height: 200px
+
 }
 
 .rowMyanmarMobile h7{
