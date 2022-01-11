@@ -607,7 +607,7 @@ body{
   display: flex;
   flex-direction: row;
   width: 100%;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   flex-wrap: wrap;
   /* background-color: red; */
 }
@@ -707,7 +707,185 @@ body{
 
 /* ------------for japan pages---------------------------------------------- */
 
+/* ----------------------for myanmar kao---------- */
+#wrapper{
+  width: 85%;
+  margin: 0 auto;
+}
 
+#wrapper > div {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.myanmarPageFirstSec{
+  width: 100%; /*1400px*/
+}
+
+.banner{
+  width: 100%; /*1400px*/
+  height: 500px;
+  background: url('images/map_jp.png') no-repeat center center;
+  background-size: contain;
+}
+
+.banner-intro{
+  width: 30%;
+  margin:0 auto;
+  padding:20px;
+  border: 1px solid #000;
+}
+
+.banner-intro li{
+  margin: 7px 0px;
+  font-size: 20px;
+}
+
+.banner-intro ul{
+  padding: 0px 0px 0px 65px;
+}
+
+
+.catContainer h3{
+  margin-bottom: 10px;
+}
+
+.catImgContainer{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+
+.catImgContainer > div {
+  width: 24%;
+}
+
+.catImgContainer img{
+  width: 100%;
+  height: 100%;
+}
+
+label{
+  display: block;
+  text-align: center;
+}
+
+
+@media(max-width:780px) {
+
+  .banner{
+      height: 420px;
+  }
+
+  .banner-intro{
+      width: 48%;
+  }
+
+  .banner-intro ul{
+      padding: 0px 0px 0px 30px;
+  }
+
+  .banner-intro li{
+      font-size: 15px;
+  }
+}
+
+@media(max-width:425px){
+  .banner{
+      height: 230px;
+  }
+ 
+  .banner-intro {
+     width: 80%;
+ }
+ 
+ .banner-intro ul{
+     padding: 0px 0px 0px 30px;
+ }
+ 
+ .banner-intro li{
+     font-size: 12px;
+ }
+ 
+ .myanmarPageFirstSec h1{
+     font-size: 16px;
+ }
+ 
+ .catContainer h3{
+     font-size: 12px;
+ }
+ 
+ .catImgContainer label{
+     font-size: 10px;
+ }
+ 
+ }
+
+@media(max-width:350px) {
+
+  .catImgContainer{
+      flex-direction: column;
+  }
+
+  .catImgContainer > div {
+      width: 100%;
+      margin-bottom: 40px
+  }
+
+  .catImgContainer > div:last-child{
+      margin-bottom: 0px;
+  }
+  
+}
+
+@media (max-width:320px){
+  .banner-intro {
+      width: 73%;
+  }
+  
+  .banner{
+      height: 180px;
+  }
+
+  .myanmarPageFirstSec h1 {
+      font-size: 14px;
+  }
+
+  .banner-intro ul {
+      padding: 0px 0px 0px 30px;
+  }
+
+  .banner-intro li {
+      font-size: 9px;
+  }
+
+  .catImgContainer > div {
+      width: 50%;
+  }
+  .catImgContainer{
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-bottom: 5px;
+  }
+
+  .catImgContainer > div {
+      margin-bottom: 0px;
+  }
+
+  #wrapper > div {
+      margin-top: 10px;
+  }
+  .catImgContainer img {
+      width: 95%;
+      height: 75%;
+  }
+}
+
+/* ----------------------for myanmar kao---------- */
 
 
 
