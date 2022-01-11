@@ -321,13 +321,14 @@ body{
   flex-direction: row;
   width: 100%;
   /* justify-content: space-evenly; */
-  justify-content: start;
+  /* justify-content: start; */
+  /* justify-content: space-around; */
   flex-wrap: wrap;
 }
 
 .colMyanmarMobile img{
-  width: 400px;
-  height: 300px;
+  width: 297px;
+  height: 215px;
 }
 
 .rowMyanmarMobile h7{
