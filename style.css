@@ -763,7 +763,7 @@ body{
 }
 
 .banner-intro{
-  width: 30%;
+  width: 58%;
   margin:0 auto;
   padding:20px;
   border: 1px solid #000;
@@ -816,7 +816,7 @@ label{
   }
 
   .banner-intro{
-      width: 48%;
+      width: 70%;
   }
 
   .banner-intro ul{
@@ -903,7 +903,8 @@ label{
 
 @media (max-width:320px){
   .banner-intro {
-      width: 73%;
+      width: 80%;
+      padding: 0;
   }
   
   .banner{
@@ -947,6 +948,12 @@ label{
 
   .catImgContainer label{
     font-size: 13px;
+  }
+}
+
+@media (max-width: 900px){
+  .banner-intro{
+    /* width: 60%; */
   }
 }
 
