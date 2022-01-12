@@ -571,15 +571,6 @@ body{
   /* ----------------------for foot--------------------- */
 
 
-
-
-
-
-
-
-
-
-
 }
 
 
@@ -768,7 +759,7 @@ body{
   box-sizing: border-box;
 } */
 
-#wrapper1{
+#wrapper{
   width: 85%;
   margin: 0 auto;
 }
@@ -991,7 +982,164 @@ label{
   }
 }
 
-/* ----------------------for myanmar kao---------- */
+/* ----------------------end for myanmar kao---------- */
+
+/* -------------------------for japan edit------------------------ */
+
+#wrapper1{
+  width: 85%;
+  margin: 0 auto;
+  background-color: red;
+}
+
+#wrapper1 > div {
+  margin-top: 20px;
+  width: 70%;
+}
+.logoJP{
+  font-size: 25px;
+  margin: 20px;
+}
+
+.logoJPTitle{
+  width: 50%;
+  /* background-color: blue; */
+  border: 2px solid #000;
+  width: 90%;
+  padding: 150px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.logoJPTitle p{
+  font-size: 30px;
+}
+
+.titleJapanJP{
+  font-size: 22px;
+  margin: 20px;
+}
+
+.imagesListJP{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* width: 70%; */
+  /* background: blue; */
+  margin: 0 auto;
+}
+
+.rowJapanJP{
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  /* background-color: green; */
+}
+
+.columnJapan{
+
+}
+
+.columnJapanJP img{
+  width: 80%;
+  margin: 10px;
+}
+
+@media (max-width: 768px){
+
+  .logoTitle{
+      padding: 100px;
+  }
+
+  .imagesList {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      /* width: 70%; */
+      /* background: blue; */
+      margin: 0 auto;
+  }
+
+  .rowJapan {
+      margin: 0 auto;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      width: 50%;
+      /* background-color: green; */
+  }
+
+  .columnJapan img {
+      width: 80%;
+      margin: 10px;
+  }
+}
+
+@media (max-width: 429px){
+  .logoTitle{
+      padding: 70px;
+  }
+
+  .imagesList{
+      flex-direction: column;
+  }
+
+  .rowJapan{
+      /* width: 90%; */
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+  }
+
+  .logoTitle p {
+      font-size: 20px;
+  }
+
+  .logo {
+      font-size: 20px;
+      margin: 10px;
+  }
+
+  .titleJapan {
+      font-size: 20px;
+      margin: 10px;
+  }
+
+  .columnJapan{
+      width: 50%;
+  }
+
+  .columnJapan img {
+      /* width: 70%;
+      margin: 10px; */
+      width: 85%;
+      margin: 10px;
+  }
+}
+
+@media (max-width: 320px){
+  .rowJapan{
+      width: 90%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+
+  .columnJapan{
+      width: 85%;
+  }
+}
+/* -------------------------end for japan edit------------------------ */
+
+
+
+
+
 
 
 
