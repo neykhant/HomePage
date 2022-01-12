@@ -11,6 +11,7 @@ body{
 #wrapper{
     width: 85%;
     margin: 0 auto;
+    background-color: red;
 }
 
 #wrapper > div {
@@ -93,3 +94,63 @@ label{
     
 }
 
+#wrapper1{
+    width: 100%;
+    margin: 0 auto;
+    /* background-color: red; */
+}
+
+#wrapper1 > div {
+    margin-top: 20px;
+    width: 80%;
+}
+.logo{
+    font-size: 25px;
+    margin: 20px;
+}
+
+.logoTitle{
+    width: 50%;
+    background-color: blue;
+    border: 2px solid #000;
+    width: 90%;
+    padding: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titleJapan{
+    font-size: 22px;
+    margin: 20px;
+}
+
+.imagesList{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* width: 70%; */
+    /* background: blue; */
+    margin: 0 auto;
+}
+
+.rowJapan{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.columnJapan{
+
+}
+
+.columnJapan img{
+    width: 50%;
+    margin: 10px;
+}
+
+@media (max-width: 768px){
+
+}

@@ -12,7 +12,8 @@ body{
 
 .head{
   /* background-image: url('images/ok.jpeg');  */
-  background-color: cornsilk;
+  /* background-color: cornsilk; */
+  background-color: #ffffff;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -20,15 +21,26 @@ body{
 }
 
 
-.head h4{
+.h4{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin: 0 62px;
+}
+
+.h4 img{
+  height: 25px;
+  width: 50%;
+}
+/* .head img{
     color: black;
     font-size: 12px;
     flex-direction: end;
     display: flex;
     flex-direction: row-reverse;
-    /* margin: 85px; */
     margin-right: 66px;
-}
+} */
+
 
 .head .paragraph{
   color: red;
@@ -445,9 +457,19 @@ body{
     height: 600px;
     display: flex;
     flex-direction: column;
-    background-color: cornsilk;
+    /* background-color: cornsilk; */
+    background-color: #ffffff;
   }
 
+.h4Mobile{
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0px 128px;
+}
+
+.h4Mobile img{
+  height: 60px;
+}
   
 .headMobile h4{
   color: black;
@@ -783,8 +805,9 @@ body{
 }
 
 
-.catContainer h3{
+.catContainer p{
   margin-bottom: 10px;
+  font-size: 22px;
 }
 
 .catImgContainer{
@@ -843,6 +866,7 @@ label{
  
   .banner-intro {
      width: 80%;
+     padding: 5px;
  }
  
  .banner-intro ul{
