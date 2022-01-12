@@ -14,7 +14,7 @@ body{
   /* background-image: url('images/ok.jpeg');  */
   /* background-color: cornsilk; */
   background-color: #ffffff;
-  height: 400px;
+  height: 380px;
   display: flex;
   flex-direction: column;
   /* background-color: red; */
@@ -25,12 +25,12 @@ body{
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
-  margin: 10px 62px;
+  margin: 5px 62px;
 }
 
 .h4 img{
-  height: 25px;
-  width: 50%;
+  height: 30px;
+  /* width: 50%; */
 }
 /* .head img{
     color: black;
@@ -268,6 +268,10 @@ body{
     margin: 20px;
     border: none;
   }
+
+  .column-footMobile p{
+    font-size: 25px;
+  }
   /* --------------------------------------------for myanmar pags---------- */
   /* ----------------------------------------------------app-------------------- */
 /* ------------------------------------------for photo list-------------------- */
@@ -464,11 +468,11 @@ body{
 .h4Mobile{
   display: flex;
   flex-direction: row-reverse;
-  margin: 40px 128px;
+  margin: 30px 128px;
 }
 
 .h4Mobile img{
-  height: 60px;
+  height: 90px;
 }
   
 .headMobile h4{
