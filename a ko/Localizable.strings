@@ -1,0 +1,417 @@
+/* 
+  Localizable.strings
+  wkp-mng-app
+
+  Created by BCMM on 23/03/2021.
+  Copyright © 2021 NEW ARCH DESIGNING Co.,Ltd. All rights reserved.
+*/
+ 
+"Login ID" = "รหัสเข้าสู่ระบบ";
+"Please enter your login ID and password." = "โปรดป้อน ID ล็อกอินและรหัสผ่านของคุณ";
+
+"New application / information" = "แอปพลิเคชัน / ข้อมูลใหม่";
+
+"Password" = "รหัสผ่าน";
+"Login" = "เข้าสู่ระบบ";
+"Click here if you cannot log in" = "หากคุณไม่สามารถเข้าสู่ระบบได้คลิกที่นี่";
+
+//Forgot Pw
+
+"Password reset" = "รีเซ็ตรหัสผ่าน";
+"Send" = "ส่ง";
+"Email Address" = "ที่อยู่อีเมล";
+"Please enter your registered Email Address" = "กรุณาใส่อีเมลที่ลงทะเบียนไว้";
+"* ID to the Email Address registered in WEL-KIDS PHOTO and URL for password reset will be sent." = "* เราจะส่ง ID และ URL รีเซ็ตรหัสผ่าน ไปยังที่อยู่อีเมลที่ลงทะเบียนไว้ใน WEL-KIDS PHOTO";
+"Send Completely" = "ส่งให้เรียบร้อย";
+"A password reset email has been sent to the Email Address you entered.
+\nClick the URL in the email and reset your password." =
+ "อีเมลรีเซ็ตรหัสผ่านถูกส่งไปยังที่อยู่อีเมลที่คุณป้อน \n คลิก URL ในอีเมลและรีเซ็ตรหัสผ่านของคุณ";
+
+// Register
+"New application" = "แอปพลิเคชันใหม่";
+
+//Album List
+"There is no album.Please create a new album" = " ไม่มีอัลบั้ม \n โปรดสร้างอัลบั้มใหม่";
+
+"Private" = "ส่วนตัว";
+"Now open" = "เผยแพร่แล้ว";
+"End of publication" = "สิ้นสุดการเผยแพร่";
+
+"Publish the album" = "เผยแพร่อัลบั้ม";
+"Keep the album private" = "ปิดการเผยแพร่อัลบั้ม";
+"Edit Title/Comment" = "แก้ไขชื่อ / ความคิดเห็น";
+"Delete album" = "ลบอัลบั้ม";
+
+"users is in the cart" = "ชื่อผู้ใช้งานที่อยู่ในตะกร้า";
+
+"Do you want to delete the album?" = "คุณต้องการที่จะลบอัลบั้มหรือไม่?";
+"Delete this album removes the photo from the user's cart" =
+ "หากลบอัลบั้มนี้ รูปภาพที่อยู่ในตะกร้าของผู้ใช้งานจะถูกลบออกไปด้วย\nคุณแน่ใจที่จะลบจริงๆใช่หรือไม่?";
+
+"cannot be restored after deletion" = "* หลังจากลบไปแล้วไม่สามารถกู้กลับคืนมาได้";
+"Delete" = "ลบ";
+"It has been deleted." = "ลบเรียบร้อย";
+"Done" = "เสร็จสิ้น";
+
+"Keep it private" = "ปิดการเผยแพร่";
+"Would you like to publish the album?" = "คุณต้องการเผยแพร่อัลบั้มใช่หรือไม่?";
+"Publish" = "เผยแพร่";
+
+"Do you want to send a public notification email to users?" =
+ "คุณต้องการส่งอีเมลแจ้งเตือนไปยังผู้ใช้งานใช่หรือไม่?";
+"(previously sent)" = " \n (ได้ถูกส่งไปก่อนหน้านี้)";
+"Send notification email" = "ส่งอีเมลแจ้งเตือน";
+"Send" = "ส่ง";
+"No" = "ไม่ส่ง";
+
+"We have sent a public notification email to the user." 
+= "ส่งอีเมลแจ้งเตือนอย่างเป็นทางการไปยังผู้ใช้งานแล้ว";
+"The album has been released!" = "อัลบั้มได้รับการเผยแพร่ให้เข้าชมแล้ว!";
+
+"sheet" = "ใบ"; // control by jp
+"sheets" = "ใบ"; // control by jp
+
+//Album Edit
+"Title" = "ชื่อ";
+"Please enter a title" = "กรุณาใส่ชื่อ";
+"Album editing" = "แก้ไขอัลบั้ม";
+"The update is complete." = "อัปเดตเสร็จสิ้น";
+
+//MaintenanceVC
+ "Maintenance" = "ซ่อมบำรุง";
+
+"Under maintenance now. We apologize for the inconvenience."
+ = "ขออภัยในความไม่สะดวก ขณะนี้กำลังอยู่ในระหว่างการซ่อมบำรุง\nกรุณารอสักครู่";// Under maintenance now. \n We apologize for the inconvenience. \n Please wait for a while.";
+"To the website" = "ไปยังเว็ปไซต์";
+"Update screen" = "อัปเดตหน้าจอ";
+
+// Upload S3
+
+"The album could not be created." = "ไม่สามารถสร้างอัลบั้มได้";
+"ext is not set" = "ไม่ได้ตั้งค่า ext";
+"The ced is unavailable" = "ไม่สามารถรับ ced";
+"fullSizeImageURL does not exist" = "ไม่มี fullSizeImageURL";
+"data does not exist" = "ไม่มี data";
+"image does not exist" = "ไม่มี imaget";
+"Unable to compress photo" = "ไม่สามารถบีบอัดรูปได้";
+
+"status does not exist" = "ไม่มี status";
+"status is not a number" = "status ไม่ใช่ตัวเลข";
+"upload_url is blank" = "upload_url ว่าง";
+
+"upload_url does not exist" = "ไม่มี upload_url";
+"ext must be JPEG or JPG" = "ext ต้องเป็น JPEG หรือ JPG";
+"Unable to get Data from asset.url" = "ไม่สามารถรับข้อมูลจาก asset.url ได้ ";
+
+"ext must be MP4 or MOV" = "ext ต้องเป็น MP4 หรือ MOV";
+
+//SelectCameraRollAssetPhotoViewController
+
+"Photo selection" = "เลือกรูปภาพ";
+"残り" = ""; // Control by jp
+"photos" = "ที่เหลืออยู่";
+"You can upload the remaining" = "คุณสามารถอัปโหลดภาพ ";
+"Nophoto" = "ไม่มีรูปภาพ";
+"Uploading" = "กำลังอัปโหลด";
+"Upload" = "อัปโหลด";
+"Creating thumbnails" = "กำลังสร้าง thumbnails...";
+
+//SelectCameraRollAssetVideoViewController
+"Video selection" = "เลือกวีดีโอ";
+"Please select a file to upload" = "กรุณาเลือกไฟล์ที่อัปโหลด";
+"No video" = "ใม่มีวีดีโอ";
+
+"Upload end processing" = "กำลังดำเนินการสิ้นสุดการอัปโหลด";
+"Cannot be selected because the video size is large" = 
+"ขนาดวิดีโอคือ\n เนื่องจาก \nไม่สามารถเลือกได้";
+"This video currently cannot be selected" = "วิดีโอนี้ \n ในปัจจุบัน \n ไม่สามารถเลือกได้";
+"Uploaded" = "อัปโหลด";
+"Go Album" = "ถึงอัลบั้ม";
+
+// ImagePickerViewController
+"No file" = "ไม่มีไฟล์";
+"Preparing" = "กำลังจัดเตรียม";
+
+//ImagePickerViewController+Asset
+"File permissions" = "กำลังอัปโหลด";
+"Close" = "ปิด";
+
+"Upload failed. Sorry to trouble you, but please try again." 
+= "อัปโหลดล้มเหลว ขออภัยเป็นในความไม่สะดวก กรุณาลองใหม่อีกครั้ง";
+
+"File has been uploaded." = "ไฟล์ได้ถูกอัปโหลดแล้ว";
+"Files have been uploaded." = "ไฟล์ได้ถูกอัปโหลดแล้ว";
+"File upload failed." = " ไฟล์อัปโหลดล้มเหลว\n";
+"Files upload failed." = " ไฟล์อัปโหลดล้มเหลว\n";
+
+"Sorry to trouble you, but please upload the failed file again." 
+= "ขออภัยเป็นอย่างยิ่ง กรุณาทำการอัปโหลดไฟล์ที่ล้มเหลวอีกครั้ง";
+
+"Do you want to delete the uploaded file from your device?" =
+ "คุณต้องการจะลบไฟล์ที่อัปโหลดออกไปจากอุปกรณ์ของคุณหรือไม่?";
+"Do you want to delete this file from your device?" = 
+"คุณต้องการลบไฟล์นี้ออกจากอุปกรณ์ของคุณหรือไม่?";
+"Do you want to delete that files from your device?" 
+= "คุณต้องการจะลบไฟล์ที่อัปโหลดออกไปจากอุปกรณ์ของคุณหรือไม่?";
+"If you do not want to delete it in the future, go to settings"
+ = "หากคุณไม่ต้องการที่จะลบหลังจากนี้ ให้ไปที่ \'ตั้งค่า\' > \'ลบไฟล์หลังจากอัปโหลด\' ที่อยู่ในแอป แล้วทำการปิดมันลง";
+
+"Upload completed" = "อัปโหลดเสร็จสิ้น";
+"The uploaded file has been moved to Recently Deleted Items." 
+= "รูปที่อัปโหลดแล้วจะถูกย้ายไปอยู่ที่ \"รายการล่าสุดที่ถูกลบ\".";
+"if you want to delete it completely now, go to Photos" = 
+"หากคุณต้องการที่จะลบออกไปโดยสมบูรณ์แบบ ให้ไปที่ \"รูปภาพ\" > \"อัลบั้ม\" > \"รายการล่าสุดที่ถูกลบ\" แล้วกรุณาทำการลบรายการที่อยู่ในนั้น";
+"Deletion completed" = "ลบเสร็จสิ้น";
+
+//SelectCollectionViewItem
+
+"Not enough size cannot be selected" = "\n ขนาดไม่เพียงพอ \n ไม่สามารถเลือกได้";
+"Cannot upload because the file type is unknown" = "\n ประเภทของไฟล์ไม่ชัดเจน ไม่สามารถอัปโหลดได้";
+"Cannot be selected because the extension does not support" 
+= "\n นามสกุลไฟล์ไม่รองรับ \n ไม่สามารถเลือกได้";
+
+//SettingVC
+"Settings" = "การตั้งค่า";
+"Logout" = "ออกจากระบบ";
+"Upload via mobile data" = "อัปโหลดผ่านโทรศัพท์มือถือ";
+"Delete file after upload" = "ลบไฟล์ทิ้งเมื่ออัพโหลดเสร็จสิ้น";
+"Delete uploaded photos and videos on your device." =
+ "ลบรูปและวีดีโอที่อัปโหลดในอุปกรณ์ของคุณ";
+"To the management site" = "ไปยังหน้าการจัดการ (เว็บไซต์)";
+"Photo selling price" = "ราคาขายรูปภาพ";
+"Member list" = "รายชื่อสมาชิก";
+"Membership registration code issuance" = "การออกรหัสลงทะเบียนสมาชิก";
+
+//SettingPriceVC
+"Photo selling price setting" = "การตั้งค่าราคาขายรูป";
+"Registration" = "การลงทะเบียน";
+"Management fee transfer account setting" = "การตั้งค่าบัญชีที่ใช้ในการโอนค่าใช้จ่ายในการจัดการ";
+"Member list (child list)" = "รายชื่อสมาชิก(รายชื่อเด็ก)";
+
+//SettingRegistCodeVC
+
+//Membership registration code issuance
+
+//AlbumDetailVC
+"Album" = "อัลบั้ม";
+"Loading" = "กำลังโหลด";
+
+////finished///
+
+"Deleting this album removes the photo from the user's cart. " 
+= "หากลบอัลบั้มนี้ รูปภาพที่อยู่ในตะกร้าของผู้ใช้งานจะถูกลบออกไปด้วย";
+//"Delete album" = "ลบอัลบั้ม";
+
+//finished 2////
+"Are you sure you want to delete?Cannot be restored after deletion." 
+= "คุณแน่ใจที่จะลบใช่หรือไม่？\n*หลังจากลบไปแล้วไม่สามารถกู้กลับคืนมาได้";
+
+"Would you like to keep the album private?" = "คุณต้องการปิดการเผยแพร่ของอัลบั้มใช่หรือไม่?";
+"The album has been closed!" = "อัลบั้มปิดการเผยแพร่แล้ว!";
+
+"This album has reached the maximum number of photos and no more photos can be added."
+ = "อัลบั้มนี้ครบจำนวนสูงสุดแล้ว ไม่สามารถเพิ่มรูปภาพได้อีก \n";
+"Create a new album or delete unwanted photos before adding them."
+ = "สร้างอัลบั้มใหม่หรือลบรูปที่ไม่ต้องการ แล้วทำการเพิ่มรูปภาพใหม่อีกครั้ง";
+"Only one video can be uploaded to one album." 
+= "สามารถอัปโหลดวีดีโอได้ 1 วีดีโอต่อ 1 อัลบั้มเท่านั้น \n";
+"Please delete the current video when uploading a new video." 
+= "โปรดลบวิดีโอที่มีอยู่ก่อนหากต้องการอัปโหลดวิดีโอใหม่";
+
+"The camera function is only available for private albums." 
+= "ฟังชั่นกล้องสามารถใช้งานได้ในอัลบั้มที่ปิดการเผยแพร่เท่านั้น";
+"Select all" = "เลือกทั้งหมด";
+"Deselect" = "ยกเลิกที่เลือก";
+
+"Move Album" = "ย้ายอัลบั้ม";
+"Please select the destination." = "กรุณาเลือกจุดหมาย";
+"*Private album only " = "* เฉพาะอัลบั้มที่ปิดการเผยแพร่เท่านั้น ";
+"Move " = "ย้าย";
+"Selecting file" = "การเลือกไฟล์";
+"Deleting a photo removes it from the user's cart."
+ = "หากลบรูปนี้แล้ว รูปที่อยู่ในตะกร้าของผู้ใช้งานจะถูกลบออกไปด้วย"; //(itemCount) ファイルを削除してよろしいですか？\n* 削除後は復元できません。" = "";
+"ファイルを削除してよろしいですか？\n* 削除後は復元できません。" = "";
+"Are you sure you want to delete" = "องการที่จะลบไฟล์ใช่หรือ";
+"Cannot be restored after deletion" = "\n* หลังจากลบไปแล้วไม่สามารถกู้กลับคืนมาได้";
+"file" = "ไฟล์?";
+
+"Delete file" = "ลบไฟล์";
+
+"Cancel" = "ยกเลิก";
+"Cancel2" = "ไม่ส่ง";
+
+"file has been deleted." = " ลบไฟล์แล้ว";
+"files have been deleted." = " ลบไฟล์แล้ว";
+"Please upload photosandvideos" = "กรุณาอัปโหลดรูปภาพ / วีดีโอ";
+
+"Move Complete" = "ย้ายเสร็จสิ้น";
+"Moved" = "ย้ายรูปภาพ";
+"photos to" = "ไปยัง";
+"photo to" = "ไปยัง";
+"枚の写真を" = ""; // Control by String jp ...
+"へ移動しました。" = "เรียบร้อยแล้ว"; // Control by String Jp ... //"\(imageCount)枚の写真を「\(albumTitle)」\nへ移動しました。" = ""; // Moved \ (imageCount) photos to "\(albumTitle)" \n. = "";
+
+//-AlbumDetailSelectVC
+
+"Delete photo" = "ลบรูป";
+"Are you sure you want to delete the selected photo? \n * Cannot be restored after deletion." = "คุณต้องการะลบรูปภาพที่เลือกใช่หรือไม่？\n * หลังจากลบไปแล้วไม่สามารถกู้กลับคืนมาได้";
+
+"Selecting" = "กำลังเลือก"; // "Selecting" = "กำลังเลือก ";
+
+//-PhotoVC
+"photo" = "รูปภาพ";
+"Video conversion is in progress.Please wait for a while."
+ = "กำลังดำเนินการแปลงวีดีโอ \ nรุณารอสักครู่s";
+"Photo ID:" = "ไอดีรูปภาพ:";
+"[Cover]" = "[หน้าปก]";
+"Video ID:" = "ไอดีวีดีโอ:";
+"Operation help" = "ความช่วยเหลือในการดำเนินการ";
+
+"[Go to next photo]Swipe left" 
+= "\n [ไปยังรูปถัดไป] \n ปัดไปทางซ้าย (*) \n\n ";
+"[Return to previous photo]Swipe rightt" 
+= " [กลับมายังรูปภาพก่อนหน้านี้] \n ปัดไปทางขวา (*) \n \n";
+"[Close]Swipe down" = " [ปิด] \n ปัดลงล่าง (*)\n\n";
+"[Enlarge/Reduce]Pinch out/pinch in photo" 
+= "[ขยายขนาด / ย่อขนาด] \nใช้นิ้วเพื่อย่อภาพให้เล็กลง/ใช้นิ้วเพื่อขยายภาพให้ใหญ่ขึ้น\n\n";
+"Invalid when enlarging the photo" = "(*ตอนขยายรูปภาพไม่ถูกต้อง)"; 
+"[Tap video] Play/Stop" = "[แตะวีดีโอ] \nเล่น / หยุด \n\n";
+
+"Are you sure you want to delete this photo?*Cannot be restored after deletion." 
+= "คุณต้องการที่จะลบรูปภาพใช่หรือไม่? \n * หลังจากลบไปแล้วไม่สามารถกู้กลับคืนมาได้";
+
+"Delete video" = "ลบวีดีโอ";
+
+//finished3///
+"Are you sure you want to delete this video?Cannot be restored after deletion." 
+= "คุณต้องการที่จะลบวีดีโอใช่หรือไม่? \n *หลังจากลบไปแล้วไม่สามารถกู้กลับคืนมาได้ ";
+
+"Cover setting" = "การตั้งค่าหน้าปก";
+"Would you like to set this photo as the cover page?" = "คุณต้องการตั้งรูปภาพนี้เป็นรูปหน้าปกใช่หรือไม่?";
+
+"Set" = "ติดตั้ง";
+
+
+"The photo is set on the cover page." = "ตั้งค่าเป็นหน้าปกเรียบร้อยแล้ว";
+
+// -- AlbumDetailCellHeader & Footer
+"Choice" = "เลือก";
+
+//-- AlbumDetailCell
+"Video is being converted" = "วีดีโอกำลังถูกแปลงเป็น \n";
+"Thumbnails \n are being prepared" = "\n กำลังอยู่ในระหว่างการจัดเตรียม thumbnails";
+
+//AlbumAddVC
+"Album creation" = "สร้างอัลบั้ม";
+
+"Example: Class name + event name" = "ตัวอย่าง: ชื่อห้อง + ชื่ออีเวนต์ ";
+"Please enter a comment (optional)" = "กรุณาใส่ความคิดเห็น (ไม่บังคับ)";
+"musthave" = "*";
+"New album" = "อัลบั้มใหม่";
+"Comment (optional)" = "ความคิดเห็น（ไม่บังคับ）";
+"Comment" = "ความคิดเห็น";
+"Example: I'm doing ◯◯◯ ☆" = "ตัวอย่าง: กำลังทำ ◯◯◯ ☆ ";
+
+
+//AlbumPhotoAdd*****
+//AlbumPhotoAddPhotoVC
+"Select" = "เลือกรูป";
+"You can select multiple items by continuing to swipe from horizontal to vertical" 
+= "คุณสามารถเลือกหลายรายการได้โดยการปัดหน้าจอจากแนวนอนเป็นแนวตั้งไปเรื่อยๆ";
+"Do you want to stop creating the album?" = "คุณต้องการจะยกเลิกการสร้างอัลบั้มใช่หรือไม่?";
+"If you cancel, the data being created will be discarded." = "หากคุณยกเลิก ข้อมูลที่กำลังสร้างอยู่จะถูกลบทิ้งไป";
+"Discard" = "ยกเลิก";
+"Permission to file" = "สิทธิ์การเข้าถึงไฟล์";
+"To upload the file, please allow the photo access from the settings." 
+= "หากต้องการอัปโหลดไฟล์ กรุณาเปิดอนุญาตสิทธิ์การเข้าถึงรูปภาพในหน้าการตั้งค่า";
+
+//AlbumPhotoAddAlbumVC
+"Title input" = "ใส่ชื่อ";
+"Next" = "ต่อไป";
+
+//AlbumPhotoAddPublicVC
+"Go home" = "กลับบ้าน";
+"To album details" = "เพื่อดูรายละเอียดอัลบั้ม";
+"It's uploading. Please wait as it is." = "ฉันกำลังอัปโหลด โปรดรอตามที่เป็นอยู่";
+"One point advice" = "คำแนะนำจุดเดียว" ;
+"Upload album" = "อัปโหลดอัลบั้ม";
+"Send a public notification email" = "ส่งอีเมลแจ้งเตือนอย่างเป็นทางการไปยังผู้ใช้งานแล้ว";
+"if you can only take similar pictures all the time, try changing the shooting angle!"
+ = "หากคุณสามารถถ่ายภาพที่คล้ายกันได้ตลอดเวลาให้ลองเปลี่ยนมุมถ่ายภาพ! \n แม้จะอยู่ในสถานที่เดียวกันบรรยากาศก็ดูแตกต่างกันมากขึ้นอยู่กับมุมถ่ายภาพ";
+"The album has been released!" = "อัลบั้มได้รับการเผยแพร่ให้เข้าชมแล้ว!";
+"The album has been created!" = "สร้างอัลบั้มเรียบร้อยแล้ว";
+"Canceling" = "อยู่ในระหว่างการยกเลิก";
+
+"Wi-Fi connection is off" = "การเชื่อมต่อ Wi-Fi ปิดไว้อยู่";
+"If you want to upload via mobile data. Please turn on" = 
+"หากคุณต้องการอัปโหลดผ่านโทรศัพท์มือถือ \n กรุณาเปิด การเข้าถึงข้อมูลจากโทรศัพท์มือถือ ที่การตั้งค่า ";
+
+"Publish the album after uploading" = "เผยแพร่อัลบั้มหลังอัปโหลดเสร็จสิ้น";
+"A notification email will be sent after the album is released." = "ส่งอีเมลแจ้งเตือนหลังอัปโหลดอัลบั้มเสร็จสิ้น";
+
+"Creating a new album" = "กำลังสร้างอัลบั้มใหม่";
+"A new album has been created" = "สร้างอัลบั้มใหม่เรียบร้อยแล้ว";
+
+"Uploading photo" = "กำลังอัปโหลดรูปภาพ ";
+
+"Error creating thumbnail" = "เกิดข้อผิดพลาดในการสร้าง thumbnail ";
+"Thumbnail creation check failed." = "ล้มเหลวในการตรวจสอบการสร้าง Thumbnail";
+
+"Album released" = "อัลบั้มกำลังเผยแพร่ ";
+"Send album public email" = "ส่งอีเมลการเผยแพร่อัลบั้ม";
+
+"Processing local photos" = "กำลังดำเนินการรูปภาพโลคอล";
+//"** \(ResponseMessage) これらのファイルを端末から削除しますか？" = "";
+"Deleting local photos" = "กำลังลบรูปโลคอล";
+
+//Information *******
+//InfoPageVC
+"Notice" = "ประกาศ";
+"Important Notice" = "ประกาศสำคัญ";
+
+//Camera **********
+//CameraVC
+"Loading album information" = "กำลังโหลดข้อมูลอัลบั้ม";
+"You can continue shooting" = "ถ่ายต่อได้เลย";
+
+"Camera permissions" = "สิทธิ์การเข้าถึงกล้อง";
+"To take a picture, allow camera access from the settings." = "กรุณาอนุญาตสิทธิ์การเข้าถึงกล้องในการตั้งค่า";
+"Stop uploading" = "หยุดการอัปโหลด";
+"Upload interruption" = "การอัปโหลดถูกระงับ";
+"Uploading photo is lost, is that okay?" = "รูปที่ทำการอัปโหลดเกิดข้อผิดพลาดขึ้น ต้องการดำเนินการต่อหรือไม่?";
+
+"Album Selection" = "เลือกอัลบั้ม";
+"Please select an album to upload." = "กรุณาเลือกอัลบั้มที่ต้องการอัปโหลด";
+
+"Decision" = "ตกลง";
+
+"UploadingSingle" = "อยู่ในระหว่างการอัปโหลด";
+"There is a new version" = "มีเวอร์ชั่นใหม่ปรากฏ";
+"Please update" = "กรุณาอัปเดต";
+
+"Upload Failure" = "อัปเดตล้มเหลว";
+"Please continue shooting and uploading in a place with good radio waves."
+ = "กรุณาถ่ายภาพและอัปโหลดในสถานที่ๆมีสัญญาณทีดีต่อไป";
+
+"Retry" = "ลองใหม่";
+
+//AlbumSelect *******
+//AlbumSelectVC
+
+"Please enter a title." = "กรุณาใส่หัวข้อ";
+
+// === Ext file
+// VC ext view
+
+"Could not log in. Sorry to trouble you, but please try logging in again." =
+ "ไม่สามารถเข้าสู่ระบบได้ขออภัยที่ทำให้คุณลำบาก แต่โปรดลองเข้าสู่ระบบอีกครั้ง";
+
+"You are not connected to the network. Set data communication to ON and try again in a place with good signal." 
+= "คุณไม่ได้เชื่อมต่อกับเครือข่ายโปรดตั้งค่าการสื่อสารข้อมูลเป็นเปิดและลองอีกครั้งในสถานที่ที่มีสัญญาณดี";
+
+"Communication error" = "ข้อผิดพลาดในการสื่อสาร";
+"Communication failed. Sorry to trouble you, but please try again in a place with good radio waves." 
+= "การสื่อสารล้มเหลวขออภัยที่ทำให้คุณลำบาก แต่โปรดลองอีกครั้งในสถานที่ที่มีคลื่นวิทยุที่ดี";
+
+"Access is prohibited. Please contact the administrator" = "ห้ามเข้าถึงโปรดติดต่อผู้ดูแลระบบ";
+"error" = "ข้อผิดพลาด";
